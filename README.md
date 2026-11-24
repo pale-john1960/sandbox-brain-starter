@@ -43,13 +43,17 @@ which isn't saved here.
 
 ## What's next (your call)
 
-1. **Door room** — the report's step 2: same evolution code, new world
-   (a room, a door, raycast "feelers" instead of 4 exact numbers).
-2. **RL branch** — same CartPole, but PPO via Stable-Baselines3, so you
+Step 2 is done too — see [`door-room/`](door-room/README.md): the same
+evolution code in a room with one door, found by 7 raycast feelers.
+Verified 2026-11-24: 49/50 fresh runs reached the door (random brains: 0%).
+
+GitHub is done as well — this repo lives at
+<https://github.com/pale-john1960/sandbox-brain-starter>, pushed
+2026-11-24, first commit `b179b89`.
+
+Two options remain from the original list:
+
+1. **RL branch** — same CartPole, but PPO via Stable-Baselines3, so you
    can compare one-brain-learning vs population-evolution on the same task.
-3. **Fruit-fly bridge** — the other report's idea: swap this MLP for a
+2. **Fruit-fly bridge** — the other report's idea: swap this MLP for a
    small FlyWire subcircuit as the brain and see what changes.
-4. **GitHub** — if you want this in a repo, the SSH key from last night
-   is still the way in: add this machine's public key to that AI GitHub
-   account (Settings → SSH and GPG keys), then I can push this folder.
-   Key: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPib53dIMno5WhCvcl1+Td1nQ58k/h1Bd6nZ9okwkQ2e hatch`
