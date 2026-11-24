@@ -1,0 +1,26 @@
+{
+  "env": "door-room 12x12, 7 raycasts, door east wall y 5.5-6.5",
+  "inputs": 7,
+  "hidden": 16,
+  "outputs": 3,
+  "shapes": [
+    [
+      7,
+      16
+    ],
+    [
+      16
+    ],
+    [
+      16,
+      3
+    ],
+    [
+      3
+    ]
+  ],
+  "train_score_mean_of_5": 101.8821707791843,
+  "train_win_rate": 1.0,
+  "method": "evolution (population, elitism, mutation)",
+  "note": "Weights only \u2014 playing, not resuming training."
+}
