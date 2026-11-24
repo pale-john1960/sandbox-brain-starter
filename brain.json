@@ -1,0 +1,25 @@
+{
+  "env": "CartPole-v1",
+  "inputs": 4,
+  "hidden": 16,
+  "outputs": 2,
+  "shapes": [
+    [
+      4,
+      16
+    ],
+    [
+      16
+    ],
+    [
+      16,
+      2
+    ],
+    [
+      2
+    ]
+  ],
+  "train_score_mean_of_3": 500.0,
+  "method": "evolution (population, elitism, mutation)",
+  "note": "Weights only \u2014 playing, not resuming training."
+}
